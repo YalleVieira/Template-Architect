@@ -1,0 +1,29 @@
+.projects {
+    width: 100%;
+    padding: 50px 40px;
+    padding-bottom: 0;
+}
+
+.projects h2 {
+    font-weight: normal;
+    padding-bottom: 30px;
+}
+
+.projects .cards_house {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));    grid-gap: 20px;
+}
+
+.cards_house .img_house .title_house {
+    background-color: black;
+    width: max-content;
+    color: white;
+    padding: 1em;
+    font-size: 14px;
+    position: absolute;
+}
+
+.cards_house .img_house img {
+    width: 100%;
+}

@@ -1,0 +1,26 @@
+footer {
+    width: 100%;
+    padding-bottom: 0;
+}
+
+footer img {
+    padding: 50px 40px;
+    width: 100%;
+    padding-bottom: 0;
+}
+
+footer p {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 2em;
+    width: 100%;
+}
+
+footer p a {
+    color: white;
+}
+
+footer p a:hover {
+    color: green;
+}

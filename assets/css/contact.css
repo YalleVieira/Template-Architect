@@ -1,0 +1,43 @@
+.contact {
+    width: 100%;
+    padding: 20px 40px;
+}
+
+.contact h2 {
+    font-weight: normal;
+    padding-bottom: 30px;
+}
+
+.contact p {
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.contact .form_contact {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact .form_contact input{
+    border: 1px solid #ccc;
+    padding: 1em;
+}
+
+.contact .form_contact button {
+    font-size: 15px;
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    padding: .7em;
+    width: max-content;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.contact .form_contact button:hover {
+    background-color: #ccc;
+    color: black;
+    border: initial;
+    padding: .85em;
+}
